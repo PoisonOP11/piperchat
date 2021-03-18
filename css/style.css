@@ -103,7 +103,7 @@ footer{
 }  
 
 
-#fot-abt{
+.fot-abt{
     background-color: #fff;
     
 }
@@ -116,46 +116,71 @@ footer{
 
 /* Media Section*/
 
-
+ /* Phones size */
 @media screen and (max-width:767px){
     #testimonials{
         display: none;
     }
     footer{
-        padding: 7% 10%;
+        
+
     }
-    
+.fot-abt{
+    padding: 7% 1%;
+}    
 }
 
-@media screen  and (max-width:1199px) {
+/* Ipad/Tablet Size */
+@media screen  and (max-width:991px) {
 
 footer{
-    padding: 10% 15%;
+    padding: 7% 7%;
 }
 
 .fot-btn{
     margin: 0 0 0 7%;
 }
 
+.fot-abt{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+}
+
+
+/* Desktop Size */
+@media screen and (max-width:1199px){
+footer{
+    padding: 4% 7%;
+}
+.fot-btn{
+    margin: 0 0 0 1%;
+}
+
+.fot-abt{
+    text-align: center;
+    padding: 7% 15%;
+}
+
 }
 
 
 
 
-
-
-@media screen and (min-width:900px){
+/* Laptop Size */
+@media screen and (min-width:1200px){
     footer{
         background-color: #ff4c68;
-        padding: 7% 14%;
+        padding: 6% 14%;
     
     }
 
     .fot-btn{
 margin: 3% 0 0 19%;
 }
-#fot-abt{
- padding: 7% 0 7% 44%;
+.fot-abt{
+ padding: 5% 0 3% 44%;
 }
 }
 
