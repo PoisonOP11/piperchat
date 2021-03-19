@@ -126,6 +126,9 @@ footer{
 .fot-abt{
     padding: 7% 1%;
 }    
+#title{
+    padding-top: 20% ;
+}
 }
 
 /* Ipad/Tablet Size */
@@ -142,6 +145,10 @@ footer{
 .fot-abt{
     text-align: center;
     padding: 7% 15%;
+}
+
+#title{
+    padding-top: 5% ;
 }
 
 }
